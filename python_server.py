@@ -51,7 +51,7 @@ def on_message_data(data):
     
     
 # Try to establish a connection
-sio.connect("http://localhost:3005/", namespaces=['/robot'])
+sio.connect("http://192.168.1.73:3005/", namespaces=['/robot'])
 
 # Keep the script running indefinitely to listen for events
 while True:
